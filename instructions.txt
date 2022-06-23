@@ -1,0 +1,23 @@
+instrucations for create flask app 
+
+1- create folder [FOLDER-NAME]
+2- open visual studio and create open this folder and create new terminal 
+3- in the terminal create new environment using command python -m venv [ENV-NAME]
+4- activate the environment using $ "the ../folder/Scripts/Activate.ps1"
+5- install flask in this environment using pip install flask
+6- create folder app 
+7- create __init__.py and view.app in the app folder
+8- create run.py file
+9- create templates and static folders
+10- in static create /static/css/style.css and /static/js/app.js and /static/img/img.png
+12- in templates create your own html files.
+13- hit this command to start run flask   "set FLASK_APP=run.py"
+14- and after hit this command "flask run" and the server will start running.
+
+15- to deactivate the anaconda encv use "deactivate" in the terminal.
+
+
+******* use this configuration to start running flask *************
+1- set FLASK_ENV=development
+2- set FLASK_APP=run.py  
+3- flask run
